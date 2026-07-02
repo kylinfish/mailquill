@@ -1,0 +1,16 @@
+# 複製成 config.yaml 後修改。config.yaml 與下列機密檔不進 git。
+# label 可為單一名稱，或多個 Label 的清單（聯集、去重）：
+#   label: "財務"
+#   label:
+#     - 財務
+#     - 銀行帳單
+#     - 信用卡
+label: "財務"              # 要掃描/抓取的 Gmail Label 名稱（可改為清單）
+csv_path: "transactions.csv"
+db_path: "mailquill.db"
+categories_path: "categories.yaml"
+rules_path: "rules.yaml"
+raw_dir: "raw"
+passwords_path: "passwords.txt"     # 每行一組 PDF 密碼，# 開頭為註解
+credentials_path: "credentials.json"  # Google Cloud OAuth client（自行下載）
+token_path: "token.json"              # 首次授權後自動產生

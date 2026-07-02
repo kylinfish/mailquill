@@ -1,0 +1,33 @@
+# secrets / local config — never commit
+credentials.json
+token.json
+passwords.txt
+*.secret.yaml
+config.yaml
+rules.yaml
+
+# local data (source of truth lives locally, not in git)
+*.db
+*.sqlite
+data/
+raw/
+transactions.csv
+report.html
+*.log
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# bank statements / source PDFs — never commit
+*.pdf
+
+# session scratch
+.superpowers/
+
+# macOS
+.DS_Store
+**/.DS_Store

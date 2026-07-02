@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 貢獻指南（新增銀行 parser）
+    url: https://github.com/kylinfish/mailquill/blob/main/CONTRIBUTING.md
+    about: 想自己寫一支銀行 parser？先看這份逐步指南與去識別化規範。
+  - name: 設定指南（安裝 / OAuth / 第一次執行）
+    url: https://github.com/kylinfish/mailquill/blob/main/docs/SETUP.md
+    about: 安裝或設定卡住了？看這裡。

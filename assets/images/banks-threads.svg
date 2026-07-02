@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1920" width="1080" height="1920" role="img" aria-label="Mailquill 目前支援的銀行，並徵求更多銀行的去識別化帳單樣本以製作 parser">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#f8f6f1"/>
+      <stop offset="0.5" stop-color="#f1f2f5"/>
+      <stop offset="1" stop-color="#eceef3"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8b26e"/>
+      <stop offset="1" stop-color="#b9873c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0" r="0.8">
+      <stop offset="0" stop-color="#d8b26e" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#d8b26e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1080" height="1920" fill="url(#bg)"/>
+  <rect width="1080" height="1920" fill="url(#glow)"/>
+
+  <!-- header: mark + wordmark (centered) -->
+  <g transform="translate(400 120)">
+    <g>
+      <circle cx="30" cy="24" r="29" fill="none" stroke="url(#gold)" stroke-width="2" opacity="0.7"/>
+      <path d="M14 46 C28 34 44 17 58 3 C50 19 37 34 23 50 Z" fill="url(#gold)"/>
+      <path d="M14 46 L9 58 L21 51 Z" fill="#c99a52"/>
+    </g>
+    <text x="76" y="42" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#191b1f">Mail<tspan fill="#b9873c">quill</tspan></text>
+  </g>
+
+  <!-- title -->
+  <text x="540" y="300" text-anchor="middle" font-family="-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif" font-size="64" font-weight="800" fill="#191b1f">目前支援的銀行</text>
+  <text x="540" y="356" text-anchor="middle" font-family="-apple-system,'PingFang TC','Microsoft JhengHei',sans-serif" font-size="27" fill="#727986">信用卡電子帳單 → 自動解析、分類、出報表 · 全本地處理</text>
+
+  <!-- bank cards (stacked) -->
+  <!-- 國泰世華 -->
+  <g transform="translate(80 410)">
+    <rect width="920" height="166" rx="20" fill="#ffffff" stroke="#e3e6ec" stroke-width="1.5"/>
+    <circle cx="100" cy="83" r="40" fill="#0a8f4e"/>
+    <text x="100" y="97" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#fff">國</text>
+    <text x="178" y="76" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#191b1f">國泰世華</text>
+    <text x="180" y="118" font-family="ui-monospace,'SF Mono',monospace" font-size="23" fill="#727986">Cathay · Gmail 附件 PDF</text>
+    <circle cx="838" cy="83" r="25" fill="#178a48"/>
+    <text x="838" y="93" text-anchor="middle" font-size="27" fill="#fff">✓</text>
+  </g>
+  <!-- 聯邦 -->
+  <g transform="translate(80 596)">
+    <rect width="920" height="166" rx="20" fill="#ffffff" stroke="#e3e6ec" stroke-width="1.5"/>
+    <circle cx="100" cy="83" r="40" fill="#c8102e"/>
+    <text x="100" y="97" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#fff">聯</text>
+    <text x="178" y="76" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#191b1f">聯邦銀行</text>
+    <text x="180" y="118" font-family="ui-monospace,'SF Mono',monospace" font-size="23" fill="#727986">UBOT · Gmail 內文／附件</text>
+    <circle cx="838" cy="83" r="25" fill="#178a48"/>
+    <text x="838" y="93" text-anchor="middle" font-size="27" fill="#fff">✓</text>
+  </g>
+  <!-- 台新 -->
+  <g transform="translate(80 782)">
+    <rect width="920" height="166" rx="20" fill="#ffffff" stroke="#e3e6ec" stroke-width="1.5"/>
+    <circle cx="100" cy="83" r="40" fill="#00a0a0"/>
+    <text x="100" y="97" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#fff">台</text>
+    <text x="178" y="76" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#191b1f">台新 / Richart</text>
+    <text x="180" y="118" font-family="ui-monospace,'SF Mono',monospace" font-size="23" fill="#727986">Taishin · Gmail 內文／附件</text>
+    <circle cx="838" cy="83" r="25" fill="#178a48"/>
+    <text x="838" y="93" text-anchor="middle" font-size="27" fill="#fff">✓</text>
+  </g>
+  <!-- 玉山 -->
+  <g transform="translate(80 968)">
+    <rect width="920" height="166" rx="20" fill="#ffffff" stroke="#e3e6ec" stroke-width="1.5"/>
+    <circle cx="100" cy="83" r="40" fill="#007a4d"/>
+    <text x="100" y="97" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#fff">玉</text>
+    <text x="178" y="76" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#191b1f">玉山銀行</text>
+    <text x="180" y="118" font-family="ui-monospace,'SF Mono',monospace" font-size="23" fill="#727986">E.SUN · Gmail 附件 PDF</text>
+    <circle cx="838" cy="83" r="25" fill="#178a48"/>
+    <text x="838" y="93" text-anchor="middle" font-size="27" fill="#fff">✓</text>
+  </g>
+  <!-- 富邦 -->
+  <g transform="translate(80 1154)">
+    <rect width="920" height="166" rx="20" fill="#ffffff" stroke="#e3e6ec" stroke-width="1.5"/>
+    <circle cx="100" cy="83" r="40" fill="#1a3b8b"/>
+    <text x="100" y="97" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#fff">富</text>
+    <text x="178" y="76" font-family="-apple-system,'PingFang TC',sans-serif" font-size="40" font-weight="700" fill="#191b1f">富邦銀行</text>
+    <text x="180" y="118" font-family="ui-monospace,'SF Mono',monospace" font-size="23" fill="#c08a1e">Fubon · 需手動下載 PDF</text>
+    <circle cx="838" cy="83" r="25" fill="#178a48"/>
+    <text x="838" y="93" text-anchor="middle" font-size="27" fill="#fff">✓</text>
+  </g>
+
+  <!-- CTA: 徵求帳單樣本 -->
+  <g transform="translate(80 1376)">
+    <rect width="920" height="420" rx="24" fill="#faf3e6" stroke="#e6cf9c" stroke-width="2"/>
+    <text x="60" y="96" font-family="-apple-system,'PingFang TC',sans-serif" font-size="48" font-weight="800" fill="#191b1f">沒有你的銀行嗎？</text>
+    <text x="60" y="168" font-family="-apple-system,'PingFang TC',sans-serif" font-size="30" fill="#414855">把一份<tspan font-weight="700" fill="#b9873c">「去識別化」</tspan>的帳單明細丟給我</text>
+    <text x="60" y="214" font-family="-apple-system,'PingFang TC',sans-serif" font-size="30" fill="#414855">（遮掉姓名／卡號／金額，只留版型格式）</text>
+    <text x="60" y="278" font-family="-apple-system,'PingFang TC',sans-serif" font-size="30" fill="#414855">我幫你做一支 <tspan font-family="ui-monospace,'SF Mono',monospace" font-weight="700" fill="#191b1f">parser</tspan>，把它加進來 🙌</text>
+
+    <rect x="60" y="316" width="800" height="72" rx="36" fill="#191b1f"/>
+    <text x="460" y="362" text-anchor="middle" font-family="ui-monospace,'SF Mono',monospace" font-size="28" font-weight="700" fill="#f8f6f1">留言你的銀行 · 或開 GitHub Issue</text>
+  </g>
+
+  <text x="540" y="1836" text-anchor="middle" font-family="-apple-system,'PingFang TC',sans-serif" font-size="26" fill="#727986">開源免費 · <tspan fill="#b9873c" font-weight="700">github.com/kylinfish/mailquill</tspan></text>
+</svg>
