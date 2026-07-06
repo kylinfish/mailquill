@@ -109,6 +109,7 @@ Mailquill 的核心是 **CSV 是唯一真實來源（single source of truth）**
 | 聯邦銀行 UBOT | `ubot` | Gmail 內文／附件 | ✅ |
 | 台新 Taishin / Richart | `taishin` | Gmail 內文／附件 | ✅ |
 | 玉山銀行 E.SUN | `esun` | Gmail 附件 PDF | ✅ |
+| 永豐銀行 SinoPac | `sinopac` | Gmail 附件 PDF | ✅ |
 | 富邦銀行 Fubon | `fubon` | ⚠️ 需手動下載 PDF | ✅ parser 就緒 |
 
 ### ⚠️ 富邦：目前需手動下載後本地解析
