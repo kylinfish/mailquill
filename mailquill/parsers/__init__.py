@@ -30,6 +30,7 @@ from mailquill.parsers.taishin import TaishinParser  # noqa: E402
 from mailquill.parsers.fubon import FubonParser  # noqa: E402
 from mailquill.parsers.esun import EsunParser  # noqa: E402
 from mailquill.parsers.sinopac import SinoPacParser  # noqa: E402
+from mailquill.parsers.huanan import HuaNanParser  # noqa: E402
 
 register(CathayParser())
 register(UnionBankParser())
@@ -37,4 +38,5 @@ register(TaishinParser())
 register(FubonParser())
 register(EsunParser())
 register(SinoPacParser())
+register(HuaNanParser())
 register(ExampleBankParser())
